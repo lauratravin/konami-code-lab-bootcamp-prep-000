@@ -3,6 +3,8 @@ let index = 0;
 
 document.body.addEventListener('keydown',init);
 
+
+
 function init(e) {
   const key = parseInt(e.detail || e.which);
 
@@ -17,9 +19,6 @@ function init(e) {
   } else {
     index = 0;
   }
-
- 
-// This is the function that would be invoked by the event listener.
 
 
 }
