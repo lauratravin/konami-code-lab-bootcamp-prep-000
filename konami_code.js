@@ -22,8 +22,5 @@ function init(e){
           index = 0;
         }
 
-      } 
+      }
 //NO ANDA   TypeError: Cannot read property 'which' of undefined
-
-      
-                    
