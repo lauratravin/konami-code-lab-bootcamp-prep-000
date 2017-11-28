@@ -23,4 +23,4 @@ document.body.addEventListener('keydown', function(){
 
             });
 }
-init;
+init();
