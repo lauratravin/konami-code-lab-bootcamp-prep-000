@@ -9,13 +9,13 @@ function init(e) {
 //  const key = parseInt(e.detail || e.which);
   const key = e.key;
   if (key === code[index]) {
-    index++;
+            index++;
 
-    if (index === code.length) {
-      alert("Hurray!");
+            if (index === code.length) {
+              alert("Hurray!");
 
-      index = 0;
-    }
+              index = 0;
+            }
   } else {
     index = 0;
   }
