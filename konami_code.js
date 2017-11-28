@@ -19,5 +19,5 @@ document.body.addEventListener('keydown', function(e){
 
       });
 
-
+init();
 //NO ANDA   TypeError: Cannot read property 'which' of undefined
